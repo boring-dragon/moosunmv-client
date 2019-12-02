@@ -1,5 +1,11 @@
-# moosunmv-client
+# Moosunmv-client
 PHP Client for MoosunMv API
+
+
+# Installation
+```
+composer require jinas/moosunmv-api
+```
 
 # Usage
 ```php
