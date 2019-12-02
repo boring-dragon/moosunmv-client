@@ -1,0 +1,21 @@
+{
+    "name": "jinas/moosunmv-api",
+    "description": "PHP Client for MoosunMv API",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mohamed Jinas",
+            "email": "j@live.mv"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.3",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "MMVClient\\": "src/"
+        }
+    }
+}
