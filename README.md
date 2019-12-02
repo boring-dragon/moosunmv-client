@@ -1,7 +1,7 @@
 # moosunmv-client
 PHP Client for MoosunMv API
 
-#Usage
+# Usage
 ```php
 
 <?php
@@ -21,4 +21,4 @@ echo $data["humidity"];
 
 ```
 
-##Note: Check the example folder for more examples
+## Note: Check the example folder for more examples
