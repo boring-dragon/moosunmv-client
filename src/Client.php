@@ -20,7 +20,7 @@ class Client implements IClient
      *
      * @return void
      */
-    public function getLatest(string $station) : array
+    public function getLatest(string $station): array
     {
         $APIendpoint = IClient::API_ENDPOINTS['getLatest'];
 
@@ -34,7 +34,7 @@ class Client implements IClient
      *
      * @return array
      */
-    public function getWeather(string $station) : array
+    public function getWeather(string $station): array
     {
         $APIendpoint = IClient::API_ENDPOINTS['getWeather'];
 

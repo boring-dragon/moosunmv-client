@@ -12,9 +12,6 @@ class RequestHandler
     /** @var GuzzleClient */
     private $guzzle;
 
-    /**
-     * @param string $apiKey
-     */
     public function __construct()
     {
         $this->guzzle = new GuzzleClient();
