@@ -26,7 +26,7 @@ interface IClient
      *
      * @return array
      */
-    public function getLatest(string $station): array;
+    public function getLatest(string $station);
 
 
 
@@ -37,5 +37,5 @@ interface IClient
      *
      * @return array
      */
-    public function getWeather(string $station): array;
+    public function getWeather(string $station);
 }

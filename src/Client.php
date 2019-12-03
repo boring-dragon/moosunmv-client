@@ -24,7 +24,9 @@ class Client implements IClient
     {
         $APIendpoint = IClient::API_ENDPOINTS['getLatest'];
 
-        return $this->requestHandler->request($APIendpoint['method'], str_replace(':station', $station, $APIendpoint['path']));
+        $data = (array) $this->requestHandler->request($APIendpoint['method'], (string) str_replace(':station', $station, $APIendpoint['path']));
+
+        return json_decode(json_encode($data), true);
     }
 
     /**
@@ -38,8 +40,8 @@ class Client implements IClient
     {
         $APIendpoint = IClient::API_ENDPOINTS['getWeather'];
 
-        $data = $this->requestHandler->request($APIendpoint['method'], str_replace(':station', $station, $APIendpoint['path']));
+        $data = (array) $this->requestHandler->request($APIendpoint['method'], (string) str_replace(':station', $station, $APIendpoint['path']));
 
-        return $data["data"];
+        return json_decode(json_encode($data["data"]), true);
     }
 }
