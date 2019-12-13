@@ -1,13 +1,17 @@
-# Moosunmv-client
+# :cloud: Moosunmv-client
+[![Latest Stable Version](https://poser.pugx.org/jinas/moosunmv-api/v/stable)](https://packagist.org/packages/jinas/moosunmv-api)
+[![License](https://poser.pugx.org/jinas/moosunmv-api/license)](https://packagist.org/packages/jinas/moosunmv-api)
+
 PHP Client for [MoosunMv](https://moosunmv.jinas.me/) API
 
+## Installation
 
-# Installation
-```
+```bash
 composer require jinas/moosunmv-api
 ```
 
-# Usage
+## Usage
+
 ```php
 
 <?php
